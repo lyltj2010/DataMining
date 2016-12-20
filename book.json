@@ -1,3 +1,35 @@
 {
-    "plugins": ["mathjax"]
+    "plugins": [
+    	"mathjax",
+    	"anchors",
+    	"github-buttons",
+    	"github",
+    	"splitter",
+    	"sharing",
+    	"atoc"
+    ],
+    "pluginsConfig": {
+	    "github-buttons": {
+	      "repo": "lyltj2010/DataMining",
+	      "types": ["star", "watch"],
+	      "size": "large"
+	    },
+	    "github": {
+	    	"url": "https://github.com/lyltj2010/DataMining"
+	    },
+	    "sharing": {
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "weibo": true,
+            "all": [
+                "facebook", "google", "twitter",
+                "weibo"
+            ]
+        },
+        "atoc": {
+            "addClass": true,
+            "className": "atoc"
+        }
+  	}
 }
