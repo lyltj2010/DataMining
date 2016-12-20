@@ -2,18 +2,12 @@
     "plugins": [
     	"mathjax",
     	"anchors",
-    	"github-buttons",
     	"github",
     	"splitter",
     	"sharing",
     	"atoc"
     ],
     "pluginsConfig": {
-	    "github-buttons": {
-	      "repo": "lyltj2010/DataMining",
-	      "types": ["star", "watch"],
-	      "size": "large"
-	    },
 	    "github": {
 	    	"url": "https://github.com/lyltj2010/DataMining"
 	    },
